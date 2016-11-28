@@ -358,6 +358,132 @@ namespace CENG_LUDO
                 //                notice_box = "Wrong command !!Your Turn Has Passed !!";
                 //                break;
                 //            }
+                ///////////////////////////////////////////////////////////////////////////////////////burada piyon çıkarma yapay zekası
+                //if (turn_number == 1 && dice == 6)
+                //{
+                //    Console.SetCursorPosition(57, 5);
+                //    control_p_1 = Convert.ToInt16(Console.ReadLine());
+                //    board[0] = home_f[(control_p_1) - 1];
+                //    home_f[(control_p_1) - 1] = '.';
+                //    turn_number--;
+                //}
+                //else if (turn_number == 1 && dice != 6 && home_f[0] == '.')
+                //{
+                //    Console.SetCursorPosition(57, 5);
+                //    control_p_1 = Convert.ToInt16(Console.ReadLine());
+                //    pawn_location += dice;
+                //    board[pawn_location] = board[previous_location];
+                //    board[previous_location] = '.';
+                //}
+                //else if (turn_number == 1 && dice != 6)
+                //{
+
+                //}
+                //else if (turn_number == 2 && dice == 6 && board[14] == '.')
+                //{
+                //    if (home_f[4] != '.')
+                //    {
+                //        board[14] = home_f[4];
+                //        home_f[4] = '.';
+                //        turn_number--;
+                //    }
+                //    else if  (home_f[5] != '.')
+                //    {
+                //        board[14] = home_f[5];
+                //        home_f[5] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[6] != '.')
+                //    {
+                //        board[14] = home_f[6];
+                //        home_f[6] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[7] != '.')
+                //    {
+                //        board[14] = home_f[7];
+                //        home_f[7] = '.';
+                //        turn_number--;
+                //    }
+                //}
+                //else if (turn_number == 2 && dice != 6 && home_f[4] == '.')
+                //{
+                //    //movement plz
+                //}
+                //else if (turn_number == 2 && dice != 6)
+                //{
+                    
+                //}
+                //else if (turn_number == 3 && dice == 6 && board[28] == '.')
+                //{
+                //    if (home_f[8] != '.')
+                //    {
+                //        board[28] = home_f[8];
+                //        home_f[8] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[9] != '.')
+                //    {
+                //        board[14] = home_f[9];
+                //        home_f[9] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[10] != '.')
+                //    {
+                //        board[14] = home_f[10];
+                //        home_f[10] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[11] != '.')
+                //    {
+                //        board[14] = home_f[11];
+                //        home_f[11] = '.';
+                //        turn_number--;
+                //    }
+                //}
+                //else if (turn_number == 3 && dice != 6 && home_f[8] == '.')
+                //{
+                //    //movement plz
+                //}
+                //else if (turn_number == 3 && dice != 6)
+                //{
+                    
+                //}
+                //else if (turn_number == 4 && dice == 6 && board[42] == '.')
+                //{
+                //    if (home_f[12] != '.')
+                //    {
+                //        board[42] = home_f[12];
+                //        home_f[12] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[13] != '.')
+                //    {
+                //        board[14] = home_f[13];
+                //        home_f[13] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[14] != '.')
+                //    {
+                //        board[14] = home_f[14];
+                //        home_f[14] = '.';
+                //        turn_number--;
+                //    }
+                //    else if (home_f[15] != '.')
+                //    {
+                //        board[14] = home_f[15];
+                //        home_f[15] = '.';
+                //        turn_number--;
+                //    }
+                //}
+                //else if (turn_number == 4 && dice != 6 && home_f[12] == '.')
+                //{
+                //    //movement plz
+                //}
+                //else if (turn_number == 4 && dice != 6)
+                //{
+                    
+                //}
                 if (dice == 6)
                 {
                     if (turn_number > 0)
@@ -452,130 +578,4 @@ namespace CENG_LUDO
 
     }
 }
-
-                //if (turn_number == 1 && dice == 6)
-                //{
-                //    Console.SetCursorPosition(57, 5);
-                //    control_p_1 = Convert.ToInt16(Console.ReadLine());
-                //    board[0] = home_f[(control_p_1) - 1];
-                //    home_f[(control_p_1) - 1] = '.';
-                //    turn_number--;
-                //}
-                //else if (turn_number == 1 && dice != 6 && home_f[0] == '.')
-                //{
-                //    Console.SetCursorPosition(57, 5);
-                //    control_p_1 = Convert.ToInt16(Console.ReadLine());
-                //    pawn_location += dice;
-                //    board[pawn_location] = board[previous_location];
-                //    board[previous_location] = '.';
-                //}
-                //else if (turn_number == 1 && dice != 6)
-                //{
-                //    Console.ReadKey();
-                //}
-                //else if (turn_number == 2 && dice == 6)
-                //{
-                //    if (home_f[4] != '.')
-                //    {
-                //        board[14] = home_f[4];
-                //        home_f[4] = '.';
-                //        turn_number--;
-                //    }
-                //    else if  (home_f[5] != '.')
-                //    {
-                //        board[14] = home_f[5];
-                //        home_f[5] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[6] != '.')
-                //    {
-                //        board[14] = home_f[6];
-                //        home_f[6] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[7] != '.')
-                //    {
-                //        board[14] = home_f[7];
-                //        home_f[7] = '.';
-                //        turn_number--;
-                //    }
-                //}
-                //else if (turn_number == 2 && dice != 6 && home_f[4] == '.')
-                //{
-
-                //}
-                //else if (turn_number == 2 && dice != 6)
-                //{
-                //    Console.ReadKey();
-                //}
-                //else if (turn_number == 3 && dice == 6)
-                //{
-                //    if (home_f[8] != '.')
-                //    {
-                //        board[28] = home_f[8];
-                //        home_f[8] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[9] != '.')
-                //    {
-                //        board[14] = home_f[9];
-                //        home_f[9] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[10] != '.')
-                //    {
-                //        board[14] = home_f[10];
-                //        home_f[10] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[11] != '.')
-                //    {
-                //        board[14] = home_f[11];
-                //        home_f[11] = '.';
-                //        turn_number--;
-                //    }
-                //}
-                //else if (turn_number == 3 && dice != 6 && home_f[8] == '.')
-                //{
-
-                //}
-                //else if (turn_number == 3 && dice != 6)
-                //{
-                //    Console.ReadKey();
-                //}
-                //else if (turn_number == 4 && dice == 6)
-                //{
-                //    if (home_f[12] != '.')
-                //    {
-                //        board[42] = home_f[12];
-                //        home_f[12] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[13] != '.')
-                //    {
-                //        board[14] = home_f[13];
-                //        home_f[13] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[14] != '.')
-                //    {
-                //        board[14] = home_f[14];
-                //        home_f[14] = '.';
-                //        turn_number--;
-                //    }
-                //    else if (home_f[15] != '.')
-                //    {
-                //        board[14] = home_f[15];
-                //        home_f[15] = '.';
-                //        turn_number--;
-                //    }
-                //}
-                //else if (turn_number == 4 && dice != 6 && home_f[12] == '.')
-                //{
-
-                //}
-                //else if (turn_number == 4 && dice != 6)
-                //{
-                //    Console.ReadKey();
-                //}
 
